@@ -128,7 +128,8 @@ a:hover {
 }
 
 .profile-links a,
-.paper-links a {
+.paper-links a,
+.paper-links .metric {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -140,6 +141,10 @@ a:hover {
   color: var(--accent);
   font-size: 13px;
   font-weight: 700;
+}
+
+.paper-links .metric {
+  color: var(--muted);
 }
 
 .profile-links a:hover,
