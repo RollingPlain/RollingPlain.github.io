@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>XXX | Academic Homepage</title>
-    <meta name="description" content="Academic homepage." />
+    <title>吴冠尧 | Academic Homepage</title>
+    <meta name="description" content="Academic homepage of Guanyao Wu." />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,18 +13,26 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260701-5" />
   </head>
-  <body>
+  <body data-lang="en">
     <header class="site-header">
       <div class="header-inner">
-        <a class="site-title" href="#home">XXX</a>
-        <nav class="main-nav" aria-label="Primary navigation">
-          <a href="#home">Home</a>
-          <a href="#awards">Awards</a>
-          <a href="#publications">Publications</a>
-          <a href="#experience">Experience</a>
-        </nav>
+        <a class="site-title" href="#home">
+          <span class="lang-zh">吴冠尧</span>
+          <span class="lang-en">Guanyao Wu</span>
+        </a>
+        <div class="header-actions">
+          <nav class="main-nav" aria-label="Primary navigation">
+            <a href="#home"><span class="lang-zh">主页</span><span class="lang-en">Home</span></a>
+            <a href="#news"><span class="lang-zh">最新动态</span><span class="lang-en">News</span></a>
+            <a href="#awards"><span class="lang-zh">荣誉奖励</span><span class="lang-en">Awards</span></a>
+            <a href="#publications"><span class="lang-zh">论文发表</span><span class="lang-en">Publications</span></a>
+            <a href="#service"><span class="lang-zh">审稿服务</span><span class="lang-en">Service</span></a>
+            <a href="#education"><span class="lang-zh">教育经历</span><span class="lang-en">Education</span></a>
+          </nav>
+          <button class="language-toggle" type="button" aria-label="Switch language">EN</button>
+        </div>
       </div>
     </header>
 
@@ -33,15 +41,60 @@
         <div class="hero-grid">
           <aside class="profile-panel" aria-label="Profile summary">
             <img class="profile-photo" src="assets/avatar.svg" alt="Profile photo" />
-            <h1>XXX <span>XXX</span></h1>
-            <p class="affiliation"><i class="fa fa-university" aria-hidden="true"></i>XXX</p>
-            <p class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>XXX</p>
+            <h1>Guanyao Wu <span>吴冠尧</span></h1>
+            <p class="affiliation">
+              <i class="fa fa-university" aria-hidden="true"></i>
+              <span class="lang-zh">大连理工大学</span>
+              <span class="lang-en">Dalian University of Technology</span>
+            </p>
+            <p class="location">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span class="lang-zh">中国辽宁大连</span>
+              <span class="lang-en">Dalian, Liaoning, China</span>
+            </p>
           </aside>
 
           <div class="hero-copy">
-            <h2>About Me</h2>
-            <p>XXX</p>
-            <p>XXX</p>
+            <h2><span class="lang-zh">个人简介</span><span class="lang-en">About Me</span></h2>
+            <p class="lang-zh">
+              吴冠尧，大连理工大学软件学院博士生，导师为
+              <a href="https://scholar.google.com/citations?user=DzuhImQAAAAJ">刘日升教授</a>，
+              合作者为
+              <a href="https://scholar.google.com/citations?user=a1xipwYAAAAJ">刘晋源教授</a>。
+              主要研究方向为多模态图像融合与图像处理。
+            </p>
+            <p class="lang-zh">
+              在 TPAMI、CVPR 等顶级期刊会议发表十余篇<a href="#publications">论文</a>，其中 6 篇为一作/学生一作，
+              3 篇入选 <a href="#publications">ESI</a> 高被引/热点文章，目前<a href="https://scholar.google.com.hk/citations?user=7uWlNzcAAAAJ&amp;hl=zh-CN">引用</a>超过 3000 次。
+              主持国家自然科学基金青年学生基础研究项目（<a href="#news">国自然</a>），入选中国科协青年人才托举工程博士生专项（<a href="#news">青托</a>），
+              曾获校级学生最高<a href="#awards">荣誉</a>优秀研究生标兵、JAL 国际奖学金、两次国家奖学金等，
+              担任多个会议与期刊的<a href="#service">审稿人</a>。
+            </p>
+            <p class="lang-en">
+              Guanyao Wu is a Ph.D. student at the School of Software, Dalian University of Technology,
+              advised by
+              <a href="https://scholar.google.com/citations?user=DzuhImQAAAAJ">Prof. Risheng Liu</a>
+              and collaborating with
+              <a href="https://scholar.google.com/citations?user=a1xipwYAAAAJ">Prof. Jinyuan Liu</a>.
+              His research interests include multimodal image fusion and image processing.
+            </p>
+            <p class="lang-en">
+              He has published more than ten <a href="#publications">papers</a> in top-tier venues such as TPAMI and CVPR,
+              including six first-author or student first-author papers. Three papers have been selected
+              as <a href="#publications">ESI</a> Highly Cited or Hot Papers, and his Google Scholar
+              <a href="https://scholar.google.com.hk/citations?user=7uWlNzcAAAAJ&amp;hl=zh-CN">citations</a> exceed 3,000.
+              He leads an NSFC Young Student Basic Research Project (<a href="#news">NSFC</a>), was selected for the
+              CAST Young Elite Scientists Sponsorship Program doctoral track (<a href="#news">CAST</a>), and has received
+              <a href="#awards">honors</a> including DUT Outstanding Graduate Student Pacesetter, JAL International Scholarship,
+              and two National Scholarships.
+            </p>
+            <p class="lang-en">
+              He also serves as a <a href="#service">reviewer</a> for multiple conferences and journals.
+            </p>
+            <div class="research-tags" aria-label="Research interests">
+              <span class="tag-pill"><span class="lang-zh">多模态融合</span><span class="lang-en">Multimodal Fusion</span></span>
+              <span class="tag-pill"><span class="lang-zh">图像处理</span><span class="lang-en">Image Processing</span></span>
+            </div>
             <div class="about-links" aria-label="Academic and code profiles">
               <a
                 class="scholar-link"
@@ -55,33 +108,139 @@
                 <span></span>
                 <i class="fa fa-github"></i>
               </a>
-              <a class="email-link" href="mailto:XXX" aria-label="Email">
-                <span></span>
-                <i class="fa fa-envelope"></i>
-              </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="news" class="section">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="lang-zh">Updates</span><span class="lang-en">Updates</span></p>
+            <h2><span class="lang-zh">最新动态</span><span class="lang-en">News</span></h2>
+          </div>
+          <div class="news-list">
+            <article class="news-item">
+              <div class="news-date">2025.12</div>
+              <p>
+                <span class="lang-zh">获批国家自然科学基金青年学生基础研究项目。</span>
+                <span class="lang-en">Awarded an NSFC Young Student Basic Research Project.</span>
+              </p>
+            </article>
+            <article class="news-item">
+              <div class="news-date">2025.11</div>
+              <p>
+                <span class="lang-zh">入选中国科协青年人才托举工程博士生专项。</span>
+                <span class="lang-en">Selected for the CAST Young Elite Scientists Sponsorship Program doctoral track.</span>
+              </p>
+            </article>
+            <article class="news-item">
+              <div class="news-date">2025.03</div>
+              <p>
+                <span class="lang-zh">论文被 CVPR 2025 录用。</span>
+                <span class="lang-en">One paper was accepted by CVPR 2025.</span>
+              </p>
+            </article>
+            <article class="news-item">
+              <div class="news-date">2024.11</div>
+              <p>
+                <span class="lang-zh">获评大连理工大学优秀研究生标兵。</span>
+                <span class="lang-en">Named DUT Outstanding Graduate Student Pacesetter.</span>
+              </p>
+            </article>
           </div>
         </div>
       </section>
 
       <section id="awards" class="section">
         <div class="section-inner">
-          <div class="section-heading">
-            <h2>Awards</h2>
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow"><span class="lang-zh">Recognition</span><span class="lang-en">Recognition</span></p>
+              <h2><span class="lang-zh">荣誉奖励</span><span class="lang-en">Awards</span></h2>
+            </div>
           </div>
           <div class="award-list">
-            <article class="award-item">
-              <div class="award-year">2026</div>
+            <article class="award-item award-featured">
+              <div class="award-year">2023-2024</div>
               <div class="award-main">
-                <h3>XXX</h3>
-                <p>XXX</p>
+                <h3>
+                  <span class="lang-zh">大连理工大学优秀研究生标兵</span>
+                  <span class="lang-en">DUT Outstanding Graduate Student Pacesetter</span>
+                </h3>
+                <p>
+                  <span class="lang-zh">校级学生最高荣誉</span>
+                  <span class="lang-en">The highest university-level student honor</span>
+                </p>
               </div>
             </article>
-            <article class="award-item">
-              <div class="award-year">2025</div>
+            <article class="award-item award-featured">
+              <div class="award-year">2024</div>
               <div class="award-main">
-                <h3>XXX</h3>
-                <p>XXX</p>
+                <h3>
+                  <span class="lang-zh">JAL 国际奖学金</span>
+                  <span class="lang-en">JAL International Scholarship</span>
+                </h3>
+                <p>
+                  <span class="lang-zh">中国大陆地区共 6 人，东北地区唯一</span>
+                  <span class="lang-en">Six recipients from mainland China; the only recipient in Northeast China</span>
+                </p>
+              </div>
+            </article>
+            <article class="award-item award-featured">
+              <div class="award-year">2024</div>
+              <div class="award-main">
+                <h3>
+                  <span class="lang-zh">研究生国家奖学金</span>
+                  <span class="lang-en">National Scholarship for Graduate Students</span>
+                </h3>
+                <p>
+                  <span class="lang-zh">专业前 1%</span>
+                  <span class="lang-en">Top 1% in the program</span>
+                </p>
+              </div>
+            </article>
+            <article class="award-item award-featured">
+              <div class="award-year">2023</div>
+              <div class="award-main">
+                <h3>
+                  <span class="lang-zh">研究生国家奖学金</span>
+                  <span class="lang-en">National Scholarship for Graduate Students</span>
+                </h3>
+                <p>
+                  <span class="lang-zh">专业前 1%</span>
+                  <span class="lang-en">Top 1% in the program</span>
+                </p>
+              </div>
+            </article>
+            <article class="award-item award-compact">
+              <div class="award-year">
+                <span class="lang-zh">其他荣誉</span>
+                <span class="lang-en">Other Honors</span>
+              </div>
+              <div class="award-main">
+                <h3>
+                  <span class="lang-zh">大连理工大学优秀研究生、一等学业奖学金与本科阶段奖学金</span>
+                  <span class="lang-en">Additional DUT graduate and undergraduate honors</span>
+                </h3>
+                <ul>
+                  <li>
+                    <span class="lang-zh">2022-2025 学年，大连理工大学优秀研究生</span>
+                    <span class="lang-en">DUT Outstanding Graduate Student, 2022-2025</span>
+                  </li>
+                  <li>
+                    <span class="lang-zh">2022-2024 学年，大连理工大学一等学业奖学金</span>
+                    <span class="lang-en">DUT First-Class Academic Scholarship, 2022-2024</span>
+                  </li>
+                  <li>
+                    <span class="lang-zh">2022 年，大连理工大学优秀毕业生</span>
+                    <span class="lang-en">DUT Outstanding Graduate, 2022</span>
+                  </li>
+                  <li>
+                    <span class="lang-zh">本科阶段，大连理工大学学习奖学金一等/二等</span>
+                    <span class="lang-en">DUT Undergraduate Academic Scholarships, first and second class</span>
+                  </li>
+                </ul>
               </div>
             </article>
           </div>
@@ -90,19 +249,45 @@
 
       <section id="publications" class="section">
         <div class="section-inner">
-          <div class="section-heading">
-            <h2>Selected Publications</h2>
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow"><span class="lang-zh">Research Output</span><span class="lang-en">Research Output</span></p>
+              <h2><span class="lang-zh">代表性论文</span><span class="lang-en">Selected Publications</span></h2>
+            </div>
+            <div class="venue-summary" aria-label="Venue summary">
+              <span>CVPR</span>
+              <span>ICCV</span>
+              <span>TPAMI</span>
+              <span>IJCV</span>
+              <span>AAAI</span>
+              <span>IJCAI</span>
+            </div>
+          </div>
+
+          <div class="featured-publications" aria-label="Featured publications">
+            <article class="featured-publication">
+              <p class="featured-label">Featured</p>
+              <h3>Every SAM Drop Counts: Embracing Semantic Priors for Multi-Modality Image Fusion and Beyond</h3>
+              <p>CVPR, 2025</p>
+              <a href="https://scholar.google.com.hk/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=7uWlNzcAAAAJ&amp;citation_for_view=7uWlNzcAAAAJ:LkGwnXOMwfcC">Scholar</a>
+            </article>
+            <article class="featured-publication">
+              <p class="featured-label">ESI Hot Paper</p>
+              <h3>Infrared and Visible Image Fusion: From Data Compatibility to Task Adaption</h3>
+              <p>TPAMI, 2025</p>
+              <a href="https://scholar.google.com.hk/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=7uWlNzcAAAAJ&amp;citation_for_view=7uWlNzcAAAAJ:_FxGoFyzp5QC">Scholar</a>
+            </article>
           </div>
 
           <div class="publication-group">
-            <h3>Top-tier Conferences and Journals</h3>
+            <h3><span class="lang-zh">顶会顶刊论文</span><span class="lang-en">Top-tier Conferences and Journals</span></h3>
 
             <article class="publication">
               <div class="pub-year">2025</div>
               <div class="pub-main">
                 <div class="pub-title-row">
-                  <h4>Every SAM drop counts: Embracing semantic priors for multi-modality image fusion and beyond</h4>
-                  <p class="venue">CVPR, 2025</p>
+                  <h4>Every SAM Drop Counts: Embracing Semantic Priors for Multi-Modality Image Fusion and Beyond</h4>
+                  <p class="venue badge-venue">CVPR, 2025</p>
                 </div>
                 <p class="authors">
                   <strong>G Wu</strong>, H Liu, H Fu, Y Peng, J Liu, X Fan, R Liu
@@ -117,9 +302,14 @@
               <div class="pub-year">2025</div>
               <div class="pub-main">
                 <div class="pub-title-row">
-                  <h4>Infrared and visible image fusion: From data compatibility to task adaption</h4>
-                  <p class="venue">TPAMI, 2025</p>
+                  <h4>Infrared and Visible Image Fusion: From Data Compatibility to Task Adaption</h4>
+                  <p class="venue badge-venue">TPAMI, 2025</p>
                 </div>
+                <p class="paper-recognition hot">
+                  <span class="recognition-kicker">ESI Hot Paper</span>
+                  <span class="recognition-detail lang-zh">Essential Science Indicators 热点论文</span>
+                  <span class="recognition-detail lang-en">Essential Science Indicators</span>
+                </p>
                 <p class="authors">
                   J Liu, <strong>G Wu</strong>, Z Liu, D Wang, Z Jiang, L Ma, W Zhong, X Fan, R Liu
                 </p>
@@ -133,8 +323,8 @@
               <div class="pub-year">2025</div>
               <div class="pub-main">
                 <div class="pub-title-row">
-                  <h4>TextMEF: text-guided prompt learning for multi-exposure image fusion</h4>
-                  <p class="venue">IJCAI, 2025</p>
+                  <h4>TextMEF: Text-Guided Prompt Learning for Multi-Exposure Image Fusion</h4>
+                  <p class="venue badge-venue">IJCAI, 2025</p>
                 </div>
                 <p class="authors">
                   J Liu, Q Huang, <strong>G Wu</strong>, D Wang, Z Jiang, L Ma, R Liu, X Fan
@@ -149,8 +339,8 @@
               <div class="pub-year">2024</div>
               <div class="pub-main">
                 <div class="pub-title-row">
-                  <h4>Where Elegance Meets Precision: Towards a Compact, Automatic, and Flexible Framework for Multi-modality Image Fusion and Applications</h4>
-                  <p class="venue">IJCAI, 2024</p>
+                  <h4>Where Elegance Meets Precision: Towards a Compact, Automatic, and Flexible Framework for Multi-Modality Image Fusion and Applications</h4>
+                  <p class="venue badge-venue">IJCAI, 2024</p>
                 </div>
                 <p class="authors">
                   J Liu, <strong>G Wu</strong>, Z Liu, L Ma, R Liu, X Fan
@@ -165,8 +355,8 @@
               <div class="pub-year">2024</div>
               <div class="pub-main">
                 <div class="pub-title-row">
-                  <h4>Hybrid-supervised dual-search: Leveraging automatic learning for loss-free multi-exposure image fusion</h4>
-                  <p class="venue">AAAI, 2024</p>
+                  <h4>Hybrid-Supervised Dual-Search: Leveraging Automatic Learning for Loss-Free Multi-Exposure Image Fusion</h4>
+                  <p class="venue badge-venue">AAAI, 2024</p>
                 </div>
                 <p class="authors">
                   <strong>G Wu</strong>, H Fu, J Liu, L Ma, X Fan, R Liu
@@ -181,8 +371,8 @@
               <div class="pub-year">2024</div>
               <div class="pub-main">
                 <div class="pub-title-row">
-                  <h4>Leveraging a self-adaptive mean teacher model for semi-supervised multi-exposure image fusion</h4>
-                  <p class="venue">Information Fusion, 2024</p>
+                  <h4>Leveraging a Self-Adaptive Mean Teacher Model for Semi-Supervised Multi-Exposure Image Fusion</h4>
+                  <p class="venue badge-venue">Information Fusion, 2024</p>
                 </div>
                 <p class="authors">
                   Q Huang, <strong>G Wu</strong>, Z Jiang, W Fan, B Xu, J Liu
@@ -197,8 +387,9 @@
               <div class="pub-year">2023</div>
               <div class="pub-main">
                 <div class="pub-title-row">
-                  <h4>Multi-interactive feature learning and a full-time multi-modality benchmark for image fusion and segmentation</h4>
-                  <p class="venue">ICCV, 2023</p>
+                  <h4>Multi-Interactive Feature Learning and a Full-Time Multi-Modality Benchmark for Image Fusion and Segmentation</h4>
+                  <p class="venue badge-venue">ICCV, 2023</p>
+                  <span class="presentation-badge oral">Oral</span>
                 </div>
                 <p class="authors">
                   J Liu, Z Liu, <strong>G Wu</strong>, L Ma, R Liu, W Zhong, Z Luo, X Fan
@@ -213,9 +404,14 @@
               <div class="pub-year">2023</div>
               <div class="pub-main">
                 <div class="pub-title-row">
-                  <h4>Coconet: Coupled contrastive learning network with multi-level feature ensemble for multi-modality image fusion</h4>
-                  <p class="venue">IJCV, 2023</p>
+                  <h4>CoCoNet: Coupled Contrastive Learning Network with Multi-Level Feature Ensemble for Multi-Modality Image Fusion</h4>
+                  <p class="venue badge-venue">IJCV, 2023</p>
                 </div>
+                <p class="paper-recognition hot">
+                  <span class="recognition-kicker">ESI Hot Paper</span>
+                  <span class="recognition-detail lang-zh">Essential Science Indicators 热点论文</span>
+                  <span class="recognition-detail lang-en">Essential Science Indicators</span>
+                </p>
                 <p class="authors">
                   J Liu, R Lin, <strong>G Wu</strong>, R Liu, Z Luo, X Fan
                 </p>
@@ -229,8 +425,8 @@
               <div class="pub-year">2023</div>
               <div class="pub-main">
                 <div class="pub-title-row">
-                  <h4>Bi-level dynamic learning for jointly multi-modality image fusion and beyond</h4>
-                  <p class="venue">IJCAI, 2023</p>
+                  <h4>Bi-Level Dynamic Learning for Jointly Multi-Modality Image Fusion and Beyond</h4>
+                  <p class="venue badge-venue">IJCAI, 2023</p>
                 </div>
                 <p class="authors">
                   Z Liu, J Liu, <strong>G Wu</strong>, L Ma, X Fan, R Liu
@@ -245,9 +441,14 @@
               <div class="pub-year">2023</div>
               <div class="pub-main">
                 <div class="pub-title-row">
-                  <h4>HoLoCo: Holistic and local contrastive learning network for multi-exposure image fusion</h4>
-                  <p class="venue">Information Fusion, 2023</p>
+                  <h4>HoLoCo: Holistic and Local Contrastive Learning Network for Multi-Exposure Image Fusion</h4>
+                  <p class="venue badge-venue">Information Fusion, 2023</p>
                 </div>
+                <p class="paper-recognition cited">
+                  <span class="recognition-kicker">ESI Highly Cited Paper</span>
+                  <span class="recognition-detail lang-zh">Essential Science Indicators 高被引论文</span>
+                  <span class="recognition-detail lang-en">Essential Science Indicators</span>
+                </p>
                 <p class="authors">
                   J Liu, <strong>G Wu</strong>, J Luan, Z Jiang, R Liu, X Fan
                 </p>
@@ -261,8 +462,9 @@
               <div class="pub-year">2022</div>
               <div class="pub-main">
                 <div class="pub-title-row">
-                  <h4>Target-aware dual adversarial learning and a multi-scenario multi-modality benchmark to fuse infrared and visible for object detection</h4>
-                  <p class="venue">CVPR, 2022</p>
+                  <h4>Target-Aware Dual Adversarial Learning and a Multi-Scenario Multi-Modality Benchmark to Fuse Infrared and Visible for Object Detection</h4>
+                  <p class="venue badge-venue">CVPR, 2022</p>
+                  <span class="presentation-badge oral">Oral</span>
                 </div>
                 <p class="authors">
                   J Liu, X Fan, Z Huang, <strong>G Wu</strong>, R Liu, W Zhong, Z Luo
@@ -275,33 +477,120 @@
           </div>
 
           <p class="publication-note">
-            <span>Only selected top-tier conference and journal papers are listed.</span>
-            <span>For the full publication list, please refer to the <a href="https://scholar.google.com.hk/citations?user=7uWlNzcAAAAJ&amp;hl=zh-CN">Google Scholar page</a>.</span>
+            <span class="lang-zh">仅列出部分顶会顶刊代表作，论文标题与作者信息保持英文。</span>
+            <span class="lang-en">Only selected top-tier conference and journal papers are listed. Paper titles and author lists remain in English.</span>
+            <span>
+              <span class="lang-zh">完整论文列表见</span>
+              <span class="lang-en">For the full publication list, please refer to the</span>
+              <a href="https://scholar.google.com.hk/citations?user=7uWlNzcAAAAJ&amp;hl=zh-CN">Google Scholar</a>.
+            </span>
           </p>
         </div>
       </section>
 
-      <section id="experience" class="section">
-        <div class="section-inner experience-section">
+      <section id="service" class="section">
+        <div class="section-inner">
           <div class="section-heading">
-            <h2>Experience</h2>
+            <p class="eyebrow"><span class="lang-zh">Academic Service</span><span class="lang-en">Academic Service</span></p>
+            <h2><span class="lang-zh">审稿人履历</span><span class="lang-en">Reviewing Service</span></h2>
           </div>
-          <article class="experience-item">
-            <div class="experience-logo placeholder-logo">XXX</div>
-            <div class="experience-content">
-              <p>XXX</p>
-              <p>XXX</p>
-              <p>XXX</p>
-            </div>
-          </article>
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="service-kicker">
+                <span class="lang-zh">会议审稿</span>
+                <span class="lang-en">Conference Reviewer</span>
+              </div>
+              <div class="service-venue-list" aria-label="Conference reviewing venues">
+                <span>CVPR</span>
+                <span>ICCV</span>
+                <span>ECCV</span>
+                <span>AAAI</span>
+                <span>ACM MM</span>
+                <span>IJCAI</span>
+                <span>ICME</span>
+                <span>ICASSP</span>
+              </div>
+            </article>
+            <article class="service-card">
+              <div class="service-kicker">
+                <span class="lang-zh">期刊审稿</span>
+                <span class="lang-en">Journal Reviewer</span>
+              </div>
+              <div class="service-venue-list" aria-label="Journal reviewing venues">
+                <span>TIP</span>
+                <span>TCSVT</span>
+                <span>TNNLS</span>
+                <span>TIM</span>
+                <span>TMM</span>
+                <span>Pattern Recognition</span>
+                <span>Information Fusion</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="lang-zh">Academic Background</span><span class="lang-en">Academic Background</span></p>
+            <h2><span class="lang-zh">教育经历</span><span class="lang-en">Education</span></h2>
+          </div>
+          <div class="education-list">
+            <article class="education-item">
+              <div class="education-year">2022.09 - <span class="lang-zh">今</span><span class="lang-en">Present</span></div>
+              <div class="education-main">
+                <h3><span class="lang-zh">硕博连读</span><span class="lang-en">M.S.-Ph.D. Program</span></h3>
+                <p>
+                  <span class="lang-zh">大连理工大学，软件学院，软件工程</span>
+                  <span class="lang-en">Software Engineering, School of Software, Dalian University of Technology</span>
+                </p>
+              </div>
+            </article>
+            <article class="education-item">
+              <div class="education-year">2018.09 - 2022.06</div>
+              <div class="education-main">
+                <h3><span class="lang-zh">本科，学士学位</span><span class="lang-en">B.Eng.</span></h3>
+                <p>
+                  <span class="lang-zh">大连理工大学，软件学院，数字媒体技术</span>
+                  <span class="lang-en">Digital Media Technology, School of Software, Dalian University of Technology</span>
+                </p>
+              </div>
+            </article>
+            <article class="education-item education-earlier">
+              <div class="education-year">
+                <span class="lang-zh">早期教育</span>
+                <span class="lang-en">Earlier Education</span>
+              </div>
+              <div class="education-main">
+                <div class="school-line">
+                  <span>
+                    <strong class="lang-zh">高中</strong>
+                    <strong class="lang-en">High School</strong>
+                    <span class="lang-zh">德州市第一中学</span>
+                    <span class="lang-en">Dezhou No.1 High School</span>
+                  </span>
+                  <span>
+                    <strong class="lang-zh">初中</strong>
+                    <strong class="lang-en">Middle School</strong>
+                    <span class="lang-zh">德州市第九中学</span>
+                    <span class="lang-en">Dezhou No.9 Middle School</span>
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Last updated: June 2026 · Made with Codex</p>
+      <p>
+        <span class="lang-zh">最后更新：2026 年 6 月</span>
+        <span class="lang-en">Last updated: June 2026</span>
+      </p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20260630-2"></script>
   </body>
 </html>
